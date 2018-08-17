@@ -1,0 +1,50 @@
+<!--<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:local="http://schemas.android.com/apk/res-auto"--><!--android:id="@+id/toolbar"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:minHeight="?attr/actionBarSize"--><!--android:background="?attr/colorPrimary"--><!--local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"--><!--local:popupTheme="@style/ThemeOverlay.AppCompat.Light" />-->
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/toolbartitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="You're at" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.45"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:adjustViewBounds="true"
+                android:src="@drawable/statueofequity" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>
