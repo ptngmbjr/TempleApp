@@ -9,12 +9,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class MusicFragment extends Fragment {
 
     MediaPlayer mp;
     ListView listview;
+    RelativeLayout musicPlayer;
+    TextView audioName;
+    ImageView musicStartStop;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -24,6 +31,9 @@ public class MusicFragment extends Fragment {
         // use your custom layout
 
         listview = (ListView) view.findViewById(R.id.musiclist);
+        musicPlayer = (RelativeLayout) view.findViewById(R.id.musicplayer);
+        audioName = (TextView) view.findViewById(R.id.audioname);
+        musicStartStop = (ImageView) view.findViewById(R.id.iconstartstop);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 R.layout.audiolist, R.id.audioname, values);
@@ -37,6 +47,16 @@ public class MusicFragment extends Fragment {
             }
         });
 
+        musicStartStop.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                if (mp.isPlaying())
+                    onStopMusic();
+                else
+                    onSartMusic("");
+            }
+        });
+
         return view;
     }
 
@@ -46,6 +66,22 @@ public class MusicFragment extends Fragment {
 
         if (mp != null)
             mp.stop();
+    }
+
+    private void onSartMusic(String name) {
+        musicPlayer.setVisibility(View.VISIBLE);
+        if (!name.isEmpty())
+            audioName.setText(name);
+        musicStartStop.setImageResource(R.drawable.pause);
+
+        mp.start();
+
+    }
+
+    private void onStopMusic() {
+        musicStartStop.setImageResource(R.drawable.play);
+
+        mp.pause();
     }
 
     public int getIntFileName(String name) {
@@ -76,10 +112,12 @@ public class MusicFragment extends Fragment {
     }
 
     public void playAudio(String name) {
+        if (mp != null && mp.isPlaying())
+            mp.stop();
 
         try {
             mp = MediaPlayer.create(getActivity(), getIntFileName(name));
-            mp.start();
+            onSartMusic(name);
         } catch (Exception e) {
             e.printStackTrace();
         }

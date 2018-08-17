@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ap250532\\Documents\\Sample Projects\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\f4605d6a1596de6f0cf9c766beaf1513\\res\\values-ta\\values-ta.xml",

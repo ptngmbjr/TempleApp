@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ap250532\\Documents\\Sample Projects\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\dfcf6fee9349668ce42df4ca6f8f4159\\res\\values-v21\\values-v21.xml",
@@ -23,25 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\Documents\\Sample Projects\\android-BluetoothLeGatt-master\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "677",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "753"
-                    },
-                    "to": {
-                        "startLines": "283",
-                        "startColumns": "4",
-                        "startOffsets": "20735",
-                        "endLines": "284",
-                        "endColumns": "12",
-                        "endOffsets": "20811"
-                    }
-                },
-                {
                     "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\8d41ea8fcd290196e4c5d3ab3a38d029\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
@@ -58,6 +39,25 @@
                         "endLines": "271,274,278,282",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "19978,20141,20435,20730"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "677",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "753"
+                    },
+                    "to": {
+                        "startLines": "283",
+                        "startColumns": "4",
+                        "startOffsets": "20735",
+                        "endLines": "284",
+                        "endColumns": "12",
+                        "endOffsets": "20811"
                     }
                 },
                 {

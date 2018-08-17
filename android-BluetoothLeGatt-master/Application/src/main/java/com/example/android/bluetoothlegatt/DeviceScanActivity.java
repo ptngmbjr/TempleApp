@@ -257,6 +257,7 @@ public class DeviceScanActivity extends ListActivity {
         }
 
         public void addDevice(BluetoothDevice device) {
+
             if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
 
                     (
@@ -266,13 +267,14 @@ public class DeviceScanActivity extends ListActivity {
 
                     ))
 
+//            if (!mLeDevices.contains(device) && mLeDevices.size() < 1)
+
             {
-//            if (!mLeDevices.contains(device) && mLeDevices.size() <1) {
 
                 mLeDevices.add(device);
 
-                // showSelectionDialog();
                 openDetectedTemple(device.getName());
+//                openDetectedTemple("TEMPLE-1");
             }
         }
 

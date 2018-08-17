@@ -150,13 +150,13 @@ public class PlayerContainer extends AppCompatActivity {
         String details = "";
         switch (templeName) {
             case "TEMPLE-1":
-                details = "Statue 01\nRanganayagi Ranganathar";
+                details = "Temple 01\nRanganayagi Ranganathar";
                 break;
             case "TEMPLE-2":
-                details = "Statue 02\nKarpaka Vinayakar";
+                details = "Temple 02\nKarpaka Vinayakar";
                 break;
             case "TEMPLE-3":
-                details = "Statue 03\nUcchi Pillayar";
+                details = "Temple 03\nUcchi Pillayar";
                 break;
             default:
                 break;

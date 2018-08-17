@@ -9,8 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a9c008d-d343-4471-8964-71940cc3fc20" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <list default="true" id="69ab7329-fd51-4c3e-873f-396bfdf19478" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,98 +31,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TempleDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TempleDetails.java">
+      <file leaf-file-name="MusicFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/MusicFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="215" column="43" lean-forward="false" selection-start-line="215" selection-start-column="43" selection-end-line="215" selection-end-column="43" />
+            <state relative-caret-position="166">
+              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1338#1346#0" expanded="true" />
+                <element signature="e#1502#1795#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1841#2088#0" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/PlayerContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="50" column="60" lean-forward="false" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playercontainerlayout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/playercontainerlayout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_temple_details.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
-              <folding>
-                <element signature="e#2285#2307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/toolbar.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,69 +50,245 @@
       <file leaf-file-name="DeviceScanActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="210" column="49" lean-forward="false" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
+            <state relative-caret-position="333">
+              <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_player.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/video_player.xml">
+      <file leaf-file-name="MediaPlayer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/media/MediaPlayer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="2730">
+              <caret line="163" column="26" lean-forward="false" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
+              <folding>
+                <marker date="1529046186381" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1529046186381" expanded="false" signature="137:663" ph="..." />
+                <marker date="1529046186381" expanded="false" signature="2631:2642" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="2678:2684" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="2730:2741" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="2777:2783" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="2828:2839" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="2875:2881" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="2928:2939" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="2975:2981" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="3046:3098" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="3185:3237" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="3377:3429" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="3496:3548" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="3668:3720" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="3865:3917" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="4049:4101" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="4275:4327" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="4459:4511" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="4636:4688" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="4807:4859" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5004:5056" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5171:5223" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5293:5345" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5469:5521" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5575:5627" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5682:5734" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="5808:5860" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="5916:5927" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="5963:5969" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="6028:6039" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="6075:6081" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="6205:6216" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="6252:6258" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="6565:6576" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="6612:6618" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="6682:6734" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="6776:6787" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="6823:6829" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="7001:7012" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="7048:7054" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="7079:7090" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="7126:7132" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="7138:7156" ph="/**...*/" />
+                <marker date="1529046186381" expanded="false" signature="7223:7234" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="7270:7276" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="7373:7425" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="7580:7632" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="7887:7898" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="7934:7940" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="8021:8073" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="8208:8260" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="8408:8460" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="8588:8640" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="8790:8842" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="8920:8972" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9042:9094" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9166:9218" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="9249:9260" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="9296:9302" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="9383:9435" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9520:9572" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9667:9719" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9808:9860" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="9957:10009" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10092:10144" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10253:10305" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10380:10432" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10505:10557" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10636:10688" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10767:10819" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="10915:10967" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="11054:11106" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="11210:11262" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="11307:11318" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="11354:11360" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="11550:11602" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="11673:11725" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="11907:11959" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="12097:12149" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="12236:12288" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="12390:12442" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="12556:12608" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="12657:13778" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="13711:13726" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="13762:13772" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="13869:14040" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="13941:14034" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="14132:14304" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="14205:14298" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="14383:14542" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="14443:14536" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="14582:14879" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="14601:14616" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="14652:14662" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="14706:14721" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="14757:14767" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="14812:14827" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="14863:14873" ph=" }" />
+                <marker date="1529046186381" expanded="true" signature="14924:14987" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15028:15103" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15144:15195" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15233:15302" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15341:15411" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15467:15551" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15594:15661" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15711:15789" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15835:15889" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="15938:16005" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="16049:16101" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="16143:16193" ph="{...}" />
+                <marker date="1529046186381" expanded="true" signature="16251:17322" ph="{...}" />
+                <marker date="1529046186381" expanded="false" signature="16645:16660" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="16696:16706" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="16741:16756" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="16792:16802" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="16839:16854" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="16890:16900" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="16940:16955" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="16991:17001" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="17040:17055" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="17091:17101" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="17160:17175" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="17211:17221" ph=" }" />
+                <marker date="1529046186381" expanded="false" signature="17255:17270" ph=" { " />
+                <marker date="1529046186381" expanded="false" signature="17306:17316" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audiolist.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/audiolist.xml">
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="musiclayout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/PlayerContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewPager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/27.0.2/304d1a77fad841db2ed31e95322d4efd5cbf6ffb/support-core-ui-27.0.2-sources.jar!/android/support/v4/view/ViewPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="603" column="16" lean-forward="false" selection-start-line="603" selection-start-column="16" selection-end-line="603" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music_player_border.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/music_player_border.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_temple_details.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="126" column="51" lean-forward="false" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="layoutResourceFile_vertical" />
-        <option value="Class" />
-        <option value="layoutResourceFile" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mNavigationDrawerItemTitles</find>
-      <find>onresu</find>
-      <find>mLeDeviceListAdapter</find>
-      <find>startLeScan</find>
-      <find>BluetoothAdapter</find>
-      <find>Start Scan</find>
-      <find>BluetoothLeScanner</find>
-      <find>Stop Scan</find>
-      <find>scan</find>
-      <find>addDevice</find>
-      <find>3.1.3</find>
-      <find>action</find>
-      <find>getSupportActionBar</find>
-      <find>appcompat</find>
-      <find>DrawerLayout</find>
-      <find>mDrawerToggle</find>
-      <find>TextView</find>
-      <find>gravity</find>
-      <find>wei</find>
-      <find>.0</find>
-      <find>app_name</find>
-      <find>toolbar</find>
-      <find>label</find>
+      <find>open</find>
+      <find>Statue</find>
+      <find>select</find>
+      <find>e</find>
+      <find>onpau</find>
+      <find>musiclist</find>
       <find>mp</find>
-      <find>playMedia</find>
+      <find>playAudio</find>
       <find>openDetectedTemple</find>
-      <find>.clas</find>
-      <find>.class</find>
-      <find>bp</find>
-      <find>TEMPLE</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -1889,43 +1984,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/VideoPlayer.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/Player.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/mainactivity.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/list_view_item_row.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DataModel.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DrawerItemCustomAdapter.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/roundtextview.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/roundtextview.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/customactionbar.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/videolayout.xml" />
-        <option value="$PROJECT_DIR$/Application/build.gradle" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/values/template-styles.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/playercontainerlayout.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TabsAdapter.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/audiolist.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/MusicFragment.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/videolist.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/VideoFragment.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/video_player.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/res/layout/toolbar.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TempleDetails.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/PlayerContainer.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/MusicFragment.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/layout/music_player_border.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/music_player_border.xml" />
+        <option value="$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
-    <option name="width" value="1924" />
+    <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -1943,6 +2014,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1970,52 +2043,29 @@
               <item name="android-BluetoothLeGatt-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="Application" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-BluetoothLeGatt-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android-BluetoothLeGatt-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Application" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="ce091609d546670b04" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/FLMS_Version_2/myiscan-android" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Application/src/main/res/drawable-hdpi" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ap250532\Documents\Sample Projects\android-BluetoothLeGatt-master\Application\src\main\res\drawable-xhdpi" />
-    </key>
-    <key name="android.template.packageName">
-      <recent name="com.example.android.bluetoothlegatt" />
-    </key>
-    <key name="android.template.parentActivityClass">
-      <recent name="" />
+      <recent name="C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\res\drawable-mdpi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ap250532\Documents\Sample Projects\android-BluetoothLeGatt-master\Application\src\main\res\drawable-hdpi" />
-      <recent name="C:\Users\ap250532\Documents\Sample Projects\android-BluetoothLeGatt-master\Application\src\main\res\layout" />
-      <recent name="C:\Users\ap250532\Documents\Sample Projects\android-BluetoothLeGatt-master\Application\src\main\res\raw" />
-      <recent name="C:\Users\ap250532\Documents\Sample Projects\android-BluetoothLeGatt-master\Application\src\main\res\menu" />
+      <recent name="C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\res\drawable-xhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2189,479 +2239,544 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1a9c008d-d343-4471-8964-71940cc3fc20" name="Default" comment="" />
-      <created>1533627053727</created>
+      <changelist id="69ab7329-fd51-4c3e-873f-396bfdf19478" name="Default" comment="" />
+      <created>1534503202763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533627053727</updated>
+      <updated>1534503202763</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2878625" sideWeight="0.50324374" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48474178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32629108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6037515" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.49675626" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="15" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_temple_details.xml" />
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/dimens.xml" />
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/drawer_temple_details.xml" />
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/data/res/values/themes.xml">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TempleDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="480" column="48" lean-forward="false" selection-start-line="480" selection-start-column="48" selection-end-line="480" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values-v11/template-styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1218">
+          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values-sw600dp/template-styles.xml">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/media/MediaPlayer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/actionbar_indeterminate_progress.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DrawerItemCustomAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="2730">
+          <caret line="163" column="26" lean-forward="false" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1529046186381" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1529046186381" expanded="false" signature="137:663" ph="..." />
+            <marker date="1529046186381" expanded="false" signature="2631:2642" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2678:2684" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2730:2741" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2777:2783" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2828:2839" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2875:2881" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2928:2939" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2975:2981" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="3046:3098" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3185:3237" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3377:3429" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3496:3548" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3668:3720" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3865:3917" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4049:4101" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4275:4327" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4459:4511" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4636:4688" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4807:4859" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5171:5223" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5293:5345" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5469:5521" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5575:5627" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5682:5734" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5808:5860" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="5916:5927" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="5963:5969" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6028:6039" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6075:6081" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6205:6216" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6252:6258" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6565:6576" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6612:6618" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="6682:6734" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="6776:6787" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6823:6829" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="7001:7012" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7048:7054" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="7079:7090" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7126:7132" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="7138:7156" ph="/**...*/" />
+            <marker date="1529046186381" expanded="false" signature="7223:7234" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7270:7276" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="7373:7425" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="7580:7632" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="7887:7898" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7934:7940" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="8021:8073" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8208:8260" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8408:8460" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8588:8640" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8790:8842" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8920:8972" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9042:9094" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9166:9218" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="9249:9260" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="9296:9302" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="9383:9435" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9520:9572" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9667:9719" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9808:9860" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9957:10009" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10092:10144" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10253:10305" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10380:10432" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10505:10557" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10636:10688" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10767:10819" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10915:10967" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11054:11106" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11210:11262" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="11307:11318" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="11354:11360" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="11550:11602" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11673:11725" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11907:11959" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12097:12149" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12236:12288" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12390:12442" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12556:12608" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12657:13778" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="13711:13726" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="13762:13772" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="13869:14040" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="13941:14034" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14132:14304" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14205:14298" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14383:14542" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14443:14536" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14582:14879" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="14601:14616" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14652:14662" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="14706:14721" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14757:14767" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="14812:14827" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14863:14873" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="14924:14987" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15028:15103" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15144:15195" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15233:15302" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15341:15411" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15467:15551" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15594:15661" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15711:15789" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15835:15889" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15938:16005" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16049:16101" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16143:16193" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16251:17322" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="16645:16660" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16696:16706" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16741:16756" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16792:16802" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16839:16854" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16890:16900" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16940:16955" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16991:17001" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17040:17055" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17091:17101" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17160:17175" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17211:17221" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17255:17270" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17306:17316" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/styles.xml" />
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values-v21/base-template-styles.xml">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/cd0ac3aceccc48058a0b12c8c3a67117/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/bluetooth/BluetoothDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/app/ListActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="148" column="31" lean-forward="false" selection-start-line="148" selection-start-column="31" selection-end-line="148" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/widget/BaseAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/bluetooth/BluetoothAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2478">
-          <caret line="179" column="19" lean-forward="false" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/mainactivity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/audiolist.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/roundtextview.xml">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="115" column="52" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/listitem_device.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/customactionbar.xml" />
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/videolayout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/27.0.2/94d41fc2899844b127c66f2b8ad8a0afa3eb2469/design-27.0.2-sources.jar!/android/support/design/widget/TabLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/27.0.2/304d1a77fad841db2ed31e95322d4efd5cbf6ffb/support-core-ui-27.0.2-sources.jar!/android/support/v4/view/PagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/template-styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="72" lean-forward="false" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/list_view_item_row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/5e967c17892f84b42bf73f00c3fa760e/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35028">
-          <caret line="1668" column="4" lean-forward="false" selection-start-line="1668" selection-start-column="4" selection-end-line="1668" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/base-strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/drawable-hdpi/tile.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/drawable-xhdpi/roundtextview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TabsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="2709">
+          <caret line="129" column="3485" lean-forward="false" selection-start-line="129" selection-start-column="3485" selection-end-line="129" selection-end-column="3485" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/MusicFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="1470">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
-            <element signature="e#895#903#0" expanded="false" />
-            <element signature="e#1059#1352#0" expanded="false" />
-            <element signature="e#1351#1352#0" expanded="false" />
+            <element signature="e#1338#1346#0" expanded="true" />
+            <element signature="e#1502#1795#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1841#2088#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/videolist.xml">
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/5e967c17892f84b42bf73f00c3fa760e/res/values/values.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="2709">
+          <caret line="129" column="3485" lean-forward="false" selection-start-line="129" selection-start-column="3485" selection-end-line="129" selection-end-column="3485" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/toolbar.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceControlActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TempleDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/audiolist.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/VideoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="64" column="59" lean-forward="false" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
-          <folding>
-            <element signature="e#979#987#0" expanded="false" />
-            <element signature="e#1143#1436#0" expanded="false" />
-            <element signature="e#1435#1436#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/video_player.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/playercontainerlayout.xml">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-27/android.jar!/android/media/MediaPlayer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="99" column="36" lean-forward="false" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        <state relative-caret-position="2730">
+          <caret line="163" column="26" lean-forward="false" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
           <folding>
-            <element signature="e#2285#2307#0" expanded="true" />
+            <marker date="1529046186381" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1529046186381" expanded="false" signature="137:663" ph="..." />
+            <marker date="1529046186381" expanded="false" signature="2631:2642" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2678:2684" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2730:2741" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2777:2783" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2828:2839" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2875:2881" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="2928:2939" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="2975:2981" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="3046:3098" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3185:3237" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3377:3429" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3496:3548" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3668:3720" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="3865:3917" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4049:4101" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4275:4327" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4459:4511" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4636:4688" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="4807:4859" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5004:5056" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5171:5223" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5293:5345" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5469:5521" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5575:5627" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5682:5734" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="5808:5860" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="5916:5927" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="5963:5969" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6028:6039" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6075:6081" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6205:6216" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6252:6258" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="6565:6576" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6612:6618" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="6682:6734" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="6776:6787" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="6823:6829" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="7001:7012" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7048:7054" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="7079:7090" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7126:7132" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="7138:7156" ph="/**...*/" />
+            <marker date="1529046186381" expanded="false" signature="7223:7234" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7270:7276" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="7373:7425" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="7580:7632" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="7887:7898" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="7934:7940" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="8021:8073" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8208:8260" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8408:8460" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8588:8640" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8790:8842" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="8920:8972" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9042:9094" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9166:9218" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="9249:9260" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="9296:9302" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="9383:9435" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9520:9572" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9667:9719" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9808:9860" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="9957:10009" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10092:10144" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10253:10305" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10380:10432" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10505:10557" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10636:10688" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10767:10819" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="10915:10967" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11054:11106" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11210:11262" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="11307:11318" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="11354:11360" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="11550:11602" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11673:11725" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="11907:11959" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12097:12149" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12236:12288" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12390:12442" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12556:12608" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="12657:13778" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="13711:13726" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="13762:13772" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="13869:14040" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="13941:14034" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14132:14304" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14205:14298" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14383:14542" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14443:14536" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="14582:14879" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="14601:14616" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14652:14662" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="14706:14721" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14757:14767" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="14812:14827" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="14863:14873" ph=" }" />
+            <marker date="1529046186381" expanded="true" signature="14924:14987" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15028:15103" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15144:15195" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15233:15302" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15341:15411" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15467:15551" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15594:15661" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15711:15789" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15835:15889" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="15938:16005" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16049:16101" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16143:16193" ph="{...}" />
+            <marker date="1529046186381" expanded="true" signature="16251:17322" ph="{...}" />
+            <marker date="1529046186381" expanded="false" signature="16645:16660" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16696:16706" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16741:16756" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16792:16802" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16839:16854" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16890:16900" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="16940:16955" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="16991:17001" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17040:17055" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17091:17101" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17160:17175" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17211:17221" ph=" }" />
+            <marker date="1529046186381" expanded="false" signature="17255:17270" ph=" { " />
+            <marker date="1529046186381" expanded="false" signature="17306:17316" ph=" }" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/activity_temple_details.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="126" column="51" lean-forward="false" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/drawable-mdpi/music_player_border.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/musiclayout.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-core-ui/27.0.2/304d1a77fad841db2ed31e95322d4efd5cbf6ffb/support-core-ui-27.0.2-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="603" column="16" lean-forward="false" selection-start-line="603" selection-start-column="16" selection-end-line="603" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/PlayerContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="50" column="60" lean-forward="false" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        <state relative-caret-position="272">
+          <caret line="65" column="58" lean-forward="false" selection-start-line="65" selection-start-column="58" selection-end-line="65" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/toolbar.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/TempleDetails.java">
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/MusicFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="215" column="43" lean-forward="false" selection-start-line="215" selection-start-column="43" selection-end-line="215" selection-end-column="43" />
+        <state relative-caret-position="166">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1338#1346#0" expanded="true" />
+            <element signature="e#1502#1795#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1841#2088#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothlegatt/DeviceScanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="210" column="49" lean-forward="false" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
+        <state relative-caret-position="333">
+          <caret line="271" column="13" lean-forward="false" selection-start-line="271" selection-start-column="13" selection-end-line="271" selection-end-column="13" />
           <folding />
         </state>
       </provider>

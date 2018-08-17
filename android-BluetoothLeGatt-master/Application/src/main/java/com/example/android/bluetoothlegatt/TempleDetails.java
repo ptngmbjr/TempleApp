@@ -63,8 +63,8 @@ public class TempleDetails extends AppCompatActivity {
 
         hardcodeText(globaltempleName);
 
-        String[] items = new String[]{"Select Language", "English", "Tamil"};
-        Spinner spinner = (Spinner) findViewById(R.id.languagespinner);
+        String[] items = new String[]{"Select your language", "English", "Tamil"};
+        final Spinner spinner = (Spinner) findViewById(R.id.languagespinner);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, items);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -77,6 +77,8 @@ public class TempleDetails extends AppCompatActivity {
                     final Intent intent = new Intent(getApplicationContext(), PlayerContainer.class);
                     intent.putExtra(PlayerContainer.HEADER_TITLE, globaltempleName);
                     startActivity(intent);
+
+                    spinner.setSelection(0);
                 }
 
             }
@@ -103,6 +105,7 @@ public class TempleDetails extends AppCompatActivity {
         setupDrawerToggle();
 
     }
+
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
@@ -162,6 +165,7 @@ public class TempleDetails extends AppCompatActivity {
         getSupportActionBar().setTitle(mTitle);
     }
 
+
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -198,24 +202,24 @@ public class TempleDetails extends AppCompatActivity {
         switch (templeName) {
             case "TEMPLE-1":
                 src = R.drawable.ranganayagiranganathar;
-                statueNo = "01\nStatue";
+                statueNo = "01\nTemple";
                 godName = "Ranganayagi Ranganathar";
                 place = "Srirangam";
-                description = "Ranganayaki is held in high reverence by the people of Srirangam and by Vaishnavites. Acharyas that sang the grace of Ranganatha venerate her. She is the feminine aspect of the universe and certain Vaishnavite traditions regard her co-equal to Ranganatha himself; she is both the means and the end of worship to them. Other traditions of Vaishnavism hold her only as the means--the end is Narayana alone. Despite these philosophical differences, all Vaishanvites revere her as ThAyAr.";
+                description = "Ranganayaki is held in high reverence by the people of Srirangam and by Vaishnavites. Acharyas that sang the grace of Ranganatha venerate her. She is the feminine aspect of the universe and certain Vaishnavite traditions regard her co-equal to Ranganatha himself; she is both the means and the end of worship to them.";
                 break;
             case "TEMPLE-2":
                 src = R.drawable.pillayarpatti;
-                statueNo = "02\nStatue";
+                statueNo = "02\nTemple";
                 godName = "Karpaka Vinayakar";
                 place = "Tiruppathur";
-                description = "Pillaiyarpatti Pillaiyar Temple is an ancient rock-cut cave shrine dedicated to Lord Ganesha, located at Pillayarpatti in Tiruppathur Taluk, Sivaganga district in the state of Tamil Nadu, India. Pilliyarpatti is located 12 kilometers far, east to Tiruppathur, 3 kilometers far, west to Kundrakudi Murugan temple and 16km far, west to Karaikudi, and 47km far, north-east towards Sivaganga town, the district head-quarters.";
+                description = "Pillaiyarpatti Pillaiyar Temple is an ancient rock-cut cave shrine dedicated to Lord Ganesha, located at Pillayarpatti in Tiruppathur Taluk, Sivaganga district in the state of Tamil Nadu, India. Pilliyarpatti is located 12 kilometers far, east to Tiruppathur, 3 kilometers far, west to Kundrakudi Murugan temple.";
                 break;
             case "TEMPLE-3":
                 src = R.drawable.ucchi;
-                statueNo = "03\nStatue";
+                statueNo = "03\nTemple";
                 godName = "Ucchi Pillayar";
                 place = "Trichy";
-                description = "Ucchi Pillayar koil, (Tamil: உச்சிப் பிள்ளையார் கோயில்) is a 7th century Hindu temple, one dedicated to Lord Ganesha located a top of Rockfort, Trichy, Tamil Nadu, India. Historically this rock is the place where Lord Ganesha ran from King Vibishana, after establishing the Ranganathaswamy deity in Srirangam.";
+                description = "Ucchi Pillayar koil, is a 7th century Hindu temple, one dedicated to Lord Ganesha located a top of Rockfort, Trichy, Tamil Nadu, India. Historically this rock is the place where Lord Ganesha ran from King Vibishana, after establishing the Ranganathaswamy deity in Srirangam.";
                 break;
             default:
                 break;
