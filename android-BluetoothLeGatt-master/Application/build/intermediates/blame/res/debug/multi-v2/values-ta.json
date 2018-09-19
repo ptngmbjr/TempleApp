@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\f4605d6a1596de6f0cf9c766beaf1513\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7821e2b02c90921746237cca4fbe9fee\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5e967c17892f84b42bf73f00c3fa760e\\res\\values-ta\\values-ta.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd93f9fa4cef49ffc808ad243e41f193\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

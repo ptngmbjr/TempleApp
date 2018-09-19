@@ -31,7 +31,9 @@ import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,6 +44,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -258,18 +262,26 @@ public class DeviceScanActivity extends ListActivity {
 
         public void addDevice(BluetoothDevice device) {
 
-            if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
+//            if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
+//                    (
+//                            device.getName().contains("http://temple-1.com") ||
+//                                    device.getName().contains("http://temple-2.com") ||
+//                                    device.getName().contains("http://temple-3.com")
+//
+//                    ))
 
+            Log.d("","Device Details : "+device.toString());
+
+            if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
                     (
-                            device.getName().contains("TEMPLE-1") ||
-                                    device.getName().contains("TEMPLE-2") ||
-                                    device.getName().contains("TEMPLE-3")
+                            device.getName().contains("Eddystone")
 
                     ))
 
 //            if (!mLeDevices.contains(device) && mLeDevices.size() < 1)
 
             {
+
 
                 mLeDevices.add(device);
 
@@ -447,4 +459,5 @@ public class DeviceScanActivity extends ListActivity {
         }
         return true;
     }
+
 }

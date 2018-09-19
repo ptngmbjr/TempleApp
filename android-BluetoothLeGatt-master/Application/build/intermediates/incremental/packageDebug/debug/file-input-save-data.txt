@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 17 18:05:39 IST 2018
+#Wed Sep 12 11:29:40 IST 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex

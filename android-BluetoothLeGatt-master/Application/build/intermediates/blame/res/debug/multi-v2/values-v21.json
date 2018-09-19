@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\dfcf6fee9349668ce42df4ca6f8f4159\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\df56e8895c5b2ee15c3eeaf073900ac6\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\8d41ea8fcd290196e4c5d3ab3a38d029\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\91788c7afd9f6fbbcc2180bc79cb985b\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\f4605d6a1596de6f0cf9c766beaf1513\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7821e2b02c90921746237cca4fbe9fee\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -80,7 +80,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5e967c17892f84b42bf73f00c3fa760e\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\bd93f9fa4cef49ffc808ad243e41f193\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
