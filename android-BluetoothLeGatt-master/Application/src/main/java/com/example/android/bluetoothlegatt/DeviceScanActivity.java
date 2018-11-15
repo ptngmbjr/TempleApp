@@ -43,9 +43,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.android.bluetoothlegatt.Enumerators.Temples;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
@@ -264,9 +262,26 @@ public class DeviceScanActivity extends ListActivity {
 
         public void addDevice(BluetoothDevice device) {
 
+//<<<<<<< HEAD
             if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
                     (
                             checkIfTempleNameMatches(device.getName())
+//=======
+////            if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
+////                    (
+////                            device.getName().contains("http://temple-1.com") ||
+////                                    device.getName().contains("http://temple-2.com") ||
+////                                    device.getName().contains("http://temple-3.com")
+////
+////                    ))
+//
+//            Log.d("","Device Details : "+device.toString());
+//
+//            if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
+//                    (
+//                            device.getName().contains("Eddystone")
+//
+//>>>>>>> 3853c725c8591b8b46dc60d10ae60913bcbef7c0
                     ))
 
 //            if (!mLeDevices.contains(device) && mLeDevices.size() < 1)

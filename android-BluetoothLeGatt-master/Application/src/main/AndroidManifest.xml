@@ -38,7 +38,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<!--<<<<<<< HEAD-->
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+<!--=======-->
+<!--&gt;>>>>>> 3853c725c8591b8b46dc60d10ae60913bcbef7c0-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application

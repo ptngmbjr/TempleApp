@@ -46,7 +46,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <<<<<<< HEAD -->
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <!-- ======= -->
+    <!-- &gt;>>>>>> 3853c725c8591b8b46dc60d10ae60913bcbef7c0 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -54,7 +57,8 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/om"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:testOnly="true" >
         android:theme="@android:style/Theme.Holo.Light">
         <activity
             android:name="com.example.android.bluetoothlegatt.DeviceScanActivity"
