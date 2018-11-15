@@ -73,7 +73,7 @@ public class Player extends Activity {
     public void playAudio() {
 
         try {
-            mp=MediaPlayer.create(this, R.raw.god_audio);
+//            mp=MediaPlayer.create(this, R.raw.god_audio);
             mp.start();
         } catch (Exception e) {
             e.printStackTrace();

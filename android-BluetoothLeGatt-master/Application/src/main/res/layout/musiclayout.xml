@@ -19,7 +19,6 @@
         android:layout_height="0dp"
         android:layout_weight=".15"
         android:background="@drawable/music_player_border"
-        android:visibility="gone"
         android:orientation="horizontal">
 
         <TextView

@@ -14,8 +14,9 @@
  limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.bluetoothlegatt"
-    android:versionCode="1"
+    android:versionCode="3"
     android:versionName="1.0">
 
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
@@ -36,6 +37,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:icon="@drawable/om"
@@ -44,17 +48,24 @@
         <activity
             android:name=".DeviceScanActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".MonitoringActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".DeviceControlActivity" />
 
-        <activity android:name=".Player"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        </activity>
+        <activity android:name=".DeviceControlActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Player"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <service
             android:name=".BluetoothLeService"
@@ -63,12 +74,31 @@
         <activity
             android:name=".TempleDetails"
             android:label="@string/title_activity_temple_details"
-            android:theme="@style/AppTheme"/>
-
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".PlayerContainer"
-            android:theme="@style/AppTheme"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".Fragments.LanguageFragment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name="org.altbeacon.beacon.service.BeaconService"
+            tools:node="replace">
+            <meta-data
+                android:name="longScanForcingEnabled"
+                android:value="true" />
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="73ab6bf0bc0b3760a1fd1ac9ff9fc4ba35c3106a" />
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

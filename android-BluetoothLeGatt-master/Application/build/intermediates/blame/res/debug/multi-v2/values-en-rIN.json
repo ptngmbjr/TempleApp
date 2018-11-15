@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleApp\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\Users\\ap250532\\Documents\\Projects\\Personal\\TempleAppEddyStone\\android-BluetoothLeGatt-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5e967c17892f84b42bf73f00c3fa760e\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\15cc0b69631e2b347ebf9e005f7d70f8\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\f4605d6a1596de6f0cf9c766beaf1513\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ap250532\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\a78b7e28263fe59dbbf40ac442b1ebc5\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/language_prompt"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.07"
+        android:layout_height="0dp" />
+    <!-- Editext for Search -->
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.13"
+        android:gravity="center"
+        android:hint="@string/lang_search_hint"
+        android:inputType="textVisiblePassword"
+        android:textStyle="bold|italic" />
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:choiceMode="singleChoice"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/continuebtn"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="0.07"
+        android:background="@drawable/round_button"
+        android:text="@string/continue_btn"
+        android:textStyle="italic" />
+
+</LinearLayout>

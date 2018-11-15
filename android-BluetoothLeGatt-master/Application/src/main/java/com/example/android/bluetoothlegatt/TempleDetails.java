@@ -1,21 +1,19 @@
 package com.example.android.bluetoothlegatt;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.app.Activity;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,6 +21,12 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.example.android.bluetoothlegatt.Enumerators.Temples;
+import com.example.android.bluetoothlegatt.Fragments.LanguageFragment;
+
+import static com.example.android.bluetoothlegatt.MonitoringActivity.ERROR;
+import static com.example.android.bluetoothlegatt.MonitoringActivity.SUCCESS;
 
 public class TempleDetails extends AppCompatActivity {
 
@@ -34,12 +38,26 @@ public class TempleDetails extends AppCompatActivity {
     private CharSequence mTitle;
     android.support.v7.app.ActionBarDrawerToggle mDrawerToggle;
     TextView statueNum, statueNames, statuePlaces, statueDescs, toolbarTitle;
+    int song = -1;
+    String godName = "";
+
+    public static String details = "";
+
+    MediaPlayer mp;
 
     ImageView image;
-    String globaltempleName;
+    Temples globaltempleName;
 
     public static final String EXTRAS_TEMPLE_NAME = "TEMPLE_NAME";
 
+    private int resumePosition;
+
+    private int LANGUAGE_FRAGMENT = 1;
+
+    private boolean LANGUAGE_CHANGED = false;
+
+    ImageView musicStartStop, musicreplay;
+    TextView audioName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +65,7 @@ public class TempleDetails extends AppCompatActivity {
         setContentView(R.layout.activity_temple_details);
 
         final Intent intent = getIntent();
-        globaltempleName = intent.getStringExtra(EXTRAS_TEMPLE_NAME);
+        globaltempleName = getTempleDetailsThruEnum(intent.getStringExtra(EXTRAS_TEMPLE_NAME));
 
         mTitle = mDrawerTitle = getTitle();
         mNavigationDrawerItemTitles = getResources().getStringArray(R.array.navigation_drawer_items_array);
@@ -60,6 +78,29 @@ public class TempleDetails extends AppCompatActivity {
         statueDescs = (TextView) findViewById(R.id.statueDescription);
         toolbarTitle = (TextView) findViewById(R.id.toolbartitle);
         image = (ImageView) findViewById(R.id.statueImage);
+        audioName = (TextView) findViewById(R.id.audioname);
+
+        musicStartStop = (ImageView) findViewById(R.id.iconstartstop);
+        musicreplay = (ImageView) findViewById(R.id.iconreplay);
+
+        musicStartStop.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                if (mp.isPlaying())
+                    pauseMusic();
+                else
+                    playAudio(song);
+            }
+        });
+
+        musicreplay.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            public void onClick(View v) {
+                pauseMusic();
+                resumePosition=0;
+                playAudio(song);
+            }
+        });
 
         hardcodeText(globaltempleName);
 
@@ -75,7 +116,7 @@ public class TempleDetails extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
                 if (position != 0) {
                     final Intent intent = new Intent(getApplicationContext(), PlayerContainer.class);
-                    intent.putExtra(PlayerContainer.HEADER_TITLE, globaltempleName);
+                    intent.putExtra(PlayerContainer.HEADER_TITLE, globaltempleName.getGodName());
                     startActivity(intent);
 
                     spinner.setSelection(0);
@@ -90,10 +131,9 @@ public class TempleDetails extends AppCompatActivity {
 
         setupToolbar();
 
-        DataModel[] drawerItem = new DataModel[2];
+        DataModel[] drawerItem = new DataModel[1];
 
-        drawerItem[0] = new DataModel("Settings");
-        drawerItem[1] = new DataModel("About Us");
+        drawerItem[0] = new DataModel("Change Language");
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setHomeButtonEnabled(true);
 
@@ -104,8 +144,8 @@ public class TempleDetails extends AppCompatActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         setupDrawerToggle();
 
-    }
 
+    }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
 
@@ -119,10 +159,16 @@ public class TempleDetails extends AppCompatActivity {
     private void selectItem(int position) {
 
         Fragment fragment = null;
+        Intent intent = null;
+        int frag_val = -1;
 
         switch (position) {
             case 0:
-//                fragment = new ConnectFragment();
+
+                intent = new Intent(this, LanguageFragment.class);
+                frag_val = LANGUAGE_FRAGMENT;
+
+//                fragment = new LanguageFragment();
                 break;
             case 1:
 //                fragment = new FixturesFragment();
@@ -135,18 +181,25 @@ public class TempleDetails extends AppCompatActivity {
                 break;
         }
 
-        if (fragment != null) {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
-            mDrawerList.setItemChecked(position, true);
-            mDrawerList.setSelection(position);
-            setTitle(mNavigationDrawerItemTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);
+//        if (fragment != null) {
+//            FragmentManager fragmentManager = getSupportFragmentManager();
+//            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+//
+//            mDrawerList.setItemChecked(position, false);
+//            mDrawerList.setSelection(position);
+//            setTitle(mNavigationDrawerItemTitles[position]);
+//            mDrawerLayout.closeDrawer(mDrawerList);
+//
+//        } else {
+//            Log.e("MainActivity", "Error in creating fragment");
+//        }
 
-        } else {
-            Log.e("MainActivity", "Error in creating fragment");
-        }
+        mDrawerList.setItemChecked(position, false);
+        mDrawerLayout.closeDrawer(mDrawerList);
+
+        startActivityForResult(intent, frag_val);
+
     }
 
     @Override
@@ -196,34 +249,49 @@ public class TempleDetails extends AppCompatActivity {
         mTitleTextView.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Medium);
     }
 
-    public void hardcodeText(String templeName) {
-        String statueNo = "", godName = "", place = "", description = "";
-        int src = 0;
-        switch (templeName) {
-            case "TEMPLE-1":
-                src = R.drawable.ranganayagiranganathar;
-                statueNo = "01\nTemple";
-                godName = "Ranganayagi Ranganathar";
-                place = "Srirangam";
-                description = "Ranganayaki is held in high reverence by the people of Srirangam and by Vaishnavites. Acharyas that sang the grace of Ranganatha venerate her. She is the feminine aspect of the universe and certain Vaishnavite traditions regard her co-equal to Ranganatha himself; she is both the means and the end of worship to them.";
-                break;
-            case "TEMPLE-2":
-                src = R.drawable.pillayarpatti;
-                statueNo = "02\nTemple";
-                godName = "Karpaka Vinayakar";
-                place = "Tiruppathur";
-                description = "Pillaiyarpatti Pillaiyar Temple is an ancient rock-cut cave shrine dedicated to Lord Ganesha, located at Pillayarpatti in Tiruppathur Taluk, Sivaganga district in the state of Tamil Nadu, India. Pilliyarpatti is located 12 kilometers far, east to Tiruppathur, 3 kilometers far, west to Kundrakudi Murugan temple.";
-                break;
-            case "TEMPLE-3":
-                src = R.drawable.ucchi;
-                statueNo = "03\nTemple";
-                godName = "Ucchi Pillayar";
-                place = "Trichy";
-                description = "Ucchi Pillayar koil, is a 7th century Hindu temple, one dedicated to Lord Ganesha located a top of Rockfort, Trichy, Tamil Nadu, India. Historically this rock is the place where Lord Ganesha ran from King Vibishana, after establishing the Ranganathaswamy deity in Srirangam.";
-                break;
-            default:
-                break;
+    public Temples getTempleDetailsThruEnum(String templeName) {
+        for (int i = 0; i < Temples.values().length; i++) {
+            if (templeName.equals(Temples.values()[i].getUrl()))
+                return Temples.values()[i];
         }
+        return null;
+    }
+
+    public void hardcodeText(Temples templeName) {
+        String statueNo = "", place = "", description = "";
+        int src = 0;
+
+        for (int i = 0; i < Temples.values().length; i++) {
+            if (templeName.equals(Temples.values()[i])) {
+                src = Temples.values()[i].getSrc();
+                statueNo = Temples.values()[i].getStatuNo();
+                godName = Temples.values()[i].getGodName();
+                place = Temples.values()[i].getPlace();
+                description = Temples.values()[i].getDescription();
+                song = Temples.values()[i].getSong();
+                details = Temples.values()[i].getDetails();
+
+            }
+        }
+//        switch (templeName) {
+//            case TEMPLE1:
+//                src = Temples.TEMPLE1.getSrc();
+//                statueNo = Temples.TEMPLE1.getStatuNo();
+//                godName = Temples.TEMPLE1.getGodName();
+//                place = Temples.TEMPLE1.getPlace();
+//                description = Temples.TEMPLE1.getDescription();
+//                break;
+//            case "TEMPLE-2":
+//                src = R.drawable.pillayarpatti;
+//                statueNo = "02\nTemple";
+//                godName = "Karpaka Vinayakar";
+//                place = "Tiruppathur";
+//                description = "Pillaiyarpatti Pillaiyar Temple is an ancient rock-cut cave shrine dedicated to Lord Ganesha, located at Pillayarpatti in Tiruppathur Taluk, Sivaganga district in the state of Tamil Nadu, India. Pilliyarpatti is located 12 kilometers far, east to Tiruppathur, 3 kilometers far, west to Kundrakudi Murugan temple.";
+//                break;
+//            default:
+//                break;
+//        }
+//        getSong(templeName);
 
         toolbarTitle.setText("You're at");
         image.setImageResource(src);
@@ -231,5 +299,97 @@ public class TempleDetails extends AppCompatActivity {
         statueNames.setText(godName);
         statuePlaces.setText(place);
         statueDescs.setText(description);
+
+
     }
+
+//    public void getSong(String templeName) {
+//        String lang = MonitoringActivity.getDataFromSP(MonitoringActivity.LANGUAGE);
+//
+//        switch (templeName) {
+//            case "TEMPLE-1":
+//                song = lang.toLowerCase().contentEquals("english") ? R.raw.temple1_eng : R.raw.temple1_span;
+//                break;
+//            case "TEMPLE-2":
+//                song = lang.toLowerCase().contentEquals("english") ? R.raw.temple2_eng : R.raw.temple2_span;
+//                break;
+//            case "TEMPLE-3":
+//                song = lang.toLowerCase().contentEquals("english") ? R.raw.temple3_eng : R.raw.temple3_span;
+//                break;
+//            default:
+//                break;
+//        }
+//    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        pauseMusic();
+    }
+
+    public void pauseMusic() {
+
+        if (mp != null) {
+            musicStartStop.setImageResource(R.drawable.play);
+
+            resumePosition = mp.getCurrentPosition();
+            mp.pause();
+        }
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (LANGUAGE_CHANGED == true) {
+            mp = null;
+            //getSong(globaltempleName);
+            LANGUAGE_CHANGED = false;
+        }
+
+        playAudio(song);
+    }
+
+    private void onStartMusic() {
+
+        audioName.setText(godName);
+        musicStartStop.setImageResource(R.drawable.pause);
+
+        mp.start();
+
+    }
+
+    public void playAudio(int name) {
+        if (mp != null && !mp.isPlaying()) {
+            mp.seekTo(resumePosition);
+        } else {
+            try {
+                mp = MediaPlayer.create(this, name);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return;
+            }
+        }
+        onStartMusic();
+
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == LANGUAGE_FRAGMENT) {
+            if (resultCode == SUCCESS) {
+                LANGUAGE_CHANGED = true;
+            }
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        // code here to show dialog
+        finish();
+        super.onBackPressed();  // optional depending on your needs
+    }
+
 }

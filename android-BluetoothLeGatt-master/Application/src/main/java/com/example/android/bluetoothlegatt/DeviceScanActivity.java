@@ -31,7 +31,9 @@ import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,6 +44,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.bluetoothlegatt.Enumerators.Temples;
+
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -211,15 +217,15 @@ public class DeviceScanActivity extends ListActivity {
     public void openDetectedTemple(String name) {
         final Intent intent = new Intent(this, TempleDetails.class);
         intent.putExtra(TempleDetails.EXTRAS_TEMPLE_NAME, name);
-        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
 
     }
 
     public void playMedia(String type) {
         final Intent intent = new Intent(this, Player.class);
-        String path = "android.resource://" + getPackageName() + "/" + R.raw.god_video;
-        intent.putExtra(Player.EXTRAS_MEDIA_FILE_NAME, path);
+//        String path = "android.resource://" + getPackageName() + "/" + R.raw.god_video;
+//        intent.putExtra(Player.EXTRAS_MEDIA_FILE_NAME, path);
         intent.putExtra(Player.EXTRAS_MEDIA_FILE_TYPE, type);
         startActivity(intent);
     }
@@ -259,23 +265,31 @@ public class DeviceScanActivity extends ListActivity {
         public void addDevice(BluetoothDevice device) {
 
             if (!mLeDevices.contains(device) && device != null && device.getName() != null &&
-
                     (
-                            device.getName().contains("TEMPLE-1") ||
-                                    device.getName().contains("TEMPLE-2") ||
-                                    device.getName().contains("TEMPLE-3")
-
+                            checkIfTempleNameMatches(device.getName())
                     ))
 
 //            if (!mLeDevices.contains(device) && mLeDevices.size() < 1)
 
             {
 
+
                 mLeDevices.add(device);
 
                 openDetectedTemple(device.getName());
 //                openDetectedTemple("TEMPLE-1");
             }
+        }
+
+        public boolean checkIfTempleNameMatches(String scannedTempleName) {
+            boolean ret = false;
+            for (int i = 0; i < Temples.values().length; i++) {
+                if (scannedTempleName.equals(Temples.values()[i].getUrl())) {
+                    ret = true;
+                    break;
+                }
+            }
+            return ret;
         }
 
         public BluetoothDevice getDevice(int position) {
@@ -447,4 +461,5 @@ public class DeviceScanActivity extends ListActivity {
         }
         return true;
     }
+
 }

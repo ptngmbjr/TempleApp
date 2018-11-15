@@ -19,6 +19,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.android.bluetoothlegatt.Enumerators.Temples;
+
+import static com.example.android.bluetoothlegatt.TempleDetails.details;
+
 
 public class PlayerContainer extends AppCompatActivity {
 
@@ -42,7 +46,7 @@ public class PlayerContainer extends AppCompatActivity {
 //        setSupportActionBar(toolbar);
 
         final Intent intent = getIntent();
-        String globaltempleName = intent.getStringExtra(HEADER_TITLE);
+//        String globaltempleName = intent.getStringExtra(HEADER_TITLE);
 
         mTitle = mDrawerTitle = getTitle();
         mNavigationDrawerItemTitles = getResources().getStringArray(R.array.navigation_drawer_items_array);
@@ -50,7 +54,8 @@ public class PlayerContainer extends AppCompatActivity {
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         toolbarTitle = (TextView) findViewById(R.id.toolbartitle);
 
-        hardcodeText(globaltempleName);
+//        hardcodeText(globaltempleName);
+        toolbarTitle.setText(details);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("AUDIO"));
@@ -146,24 +151,24 @@ public class PlayerContainer extends AppCompatActivity {
         mTitleTextView.setTextAppearance(getApplicationContext(), android.R.style.TextAppearance_Medium);
     }
 
-    public void hardcodeText(String templeName) {
-        String details = "";
-        switch (templeName) {
-            case "TEMPLE-1":
-                details = "Temple 01\nRanganayagi Ranganathar";
-                break;
-            case "TEMPLE-2":
-                details = "Temple 02\nKarpaka Vinayakar";
-                break;
-            case "TEMPLE-3":
-                details = "Temple 03\nUcchi Pillayar";
-                break;
-            default:
-                break;
-        }
-
-        toolbarTitle.setText(details);
-    }
+////    public void hardcodeText(String templeName) {
+////        String details = "";
+////        switch (templeName) {
+////            case Temples.TEMPLE1.getName():
+////                details = "Temple 01\nRanganayagi Ranganathar";
+////                break;
+////            case "TEMPLE-2":
+////                details = "Temple 02\nKarpaka Vinayakar";
+////                break;
+////            case "TEMPLE-3":
+////                details = "Temple 03\nUcchi Pillayar";
+////                break;
+////            default:
+////                break;
+////        }
+//
+//        toolbarTitle.setText(details);
+//    }
 
 
 }

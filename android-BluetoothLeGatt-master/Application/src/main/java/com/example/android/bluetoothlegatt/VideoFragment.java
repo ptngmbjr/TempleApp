@@ -47,16 +47,16 @@ public class VideoFragment extends Fragment {
 
         String path = "android.resource://" + getActivity().getPackageName() + "/";
 
-        String id = path + R.raw.god_video;
-
-        switch (name) {
-            case "Sai baba":
-                id = path + R.raw.god_video;
-                break;
-            default:
-
-                break;
-        }
+        String id = path;// + R.raw.god_video;
+//
+//        switch (name) {
+//            case "Sai baba":
+//                id = path + R.raw.god_video;
+//                break;
+//            default:
+//
+//                break;
+//        }
 
         return id;
     }

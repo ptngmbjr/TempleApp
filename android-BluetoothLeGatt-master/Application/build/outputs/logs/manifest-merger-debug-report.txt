@@ -1,163 +1,353 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-74:12
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-74:12
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-74:12
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\ab9614ccf34b8d98dba9f04b52e35f3d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\dfcf6fee9349668ce42df4ca6f8f4159\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\32c8b8b22fcf9950760a0bbee70bf8fd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\c01db3e2da472126b3637617c1dc663d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5e967c17892f84b42bf73f00c3fa760e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0565d8505fd19cd3c5f4a1043d58f42a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8d41ea8fcd290196e4c5d3ab3a38d029\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ee19ffb972943ab04a0117b270ad40de\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\3ecf1f03fb03173a4c98222d0470dbe3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\fadf8b1e98d1d416944dd38f74bf811c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\503afb30ec48b04fb4d89490e2fd5339\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6bbd21c6a4ec017b91e7a48558e15920\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b65c9b70765335ef97d463dfe6055148\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\64a6d18529bce57b91840a3717a1841c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f4605d6a1596de6f0cf9c766beaf1513\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\089eb0dc156d8ffeadaa1694f6f9dfb3\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-74:12
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-74:12
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-104:12
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-104:12
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-104:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\50f4d4e9ddb0dac135d60d0759c318a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d4a8da95a5f4628de0274723f9fd7929\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9d43ad26d7e083bb16b40a5a3da7b412\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\dff11e9ec2311d4b1e0bfe19adbb5390\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\15cc0b69631e2b347ebf9e005f7d70f8\AndroidManifest.xml:17:1-22:12
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:2:1-58:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:2:1-19:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\8bdea31ce0b98a454cb1a994db9de03d\AndroidManifest.xml:23:1-33:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d5175495d6e380687fde83db4e1397ee\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\0b32ad873847777a51c0ea371c1a1bce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\80c05f121830cbe783f36c5aebd9629f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ce123c7f97bef078c08bfd54e4c7544e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1932b51a28408527d713428400a59fb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\949c4765be9b90d566d9501baa30b808\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\683ad453e5b78c8b7c95779bb2c6d410\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7ba1c8a92a7e6f8689d99e81873e3597\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\f7978f73004556ab1336b6716e5f8040\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a78b7e28263fe59dbbf40ac442b1ebc5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\afc3a2e39657920021c8ca1e84d6262d\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-104:12
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:1-104:12
 	package
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:17:5-50
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:18:5-50
 	android:versionName
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:19:5-30
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:20:5-30
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:17:5-51
 	xmlns:android
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:11-69
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:16:11-69
 	android:versionCode
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:18:5-28
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:19:5-28
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:30:5-32:35
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:31:5-33:35
 	android:required
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:32:9-32
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:33:9-32
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:31:9-53
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:32:9-53
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:34:5-68
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:35:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:13:9-33
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:34:22-65
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:35:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:35:5-74
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:16:9-33
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:35:22-71
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:5-81
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:37:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:18:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:36:22-78
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:37:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:37:5-79
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:38:5-79
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:37:22-76
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:38:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:38:5-66
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:39:5-66
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:38:22-63
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:39:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:40:5-81
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:40:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:41:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:42:5-80
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:42:22-77
 application
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:40:5-72:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0565d8505fd19cd3c5f4a1043d58f42a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0565d8505fd19cd3c5f4a1043d58f42a\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:44:5-101:19
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:20:5-56:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\8bdea31ce0b98a454cb1a994db9de03d\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\8bdea31ce0b98a454cb1a994db9de03d\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d5175495d6e380687fde83db4e1397ee\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d5175495d6e380687fde83db4e1397ee\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:31:5-20
 	android:label
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:42:9-41
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:46:9-41
 	android:icon
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:41:9-36
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:45:9-36
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:44:9-53:20
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:48:9-52:81
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:51:13-49
 	android:label
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:46:13-45
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:50:13-45
 	android:theme
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:47:13-69
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:45:13-47
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:49:13-47
+activity#com.example.android.bluetoothlegatt.MonitoringActivity
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:53:9-64:20
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:55:13-45
+	android:theme
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:57:13-69
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:54:13-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:48:13-52:29
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:59:13-62:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:49:17-69
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:49:25-66
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:51:17-77
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:51:27-74
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:61:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:54:9-59
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:65:9-95
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:65:57-93
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:54:19-56
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:65:19-56
 activity#com.example.android.bluetoothlegatt.Player
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:56:9-57:71
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:66:9-68:72
 	android:theme
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:57:13-69
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:68:13-69
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:56:19-41
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:67:13-35
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:59:9-61:38
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:70:9-72:38
 	android:enabled
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:61:13-35
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:72:13-35
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:60:13-47
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:71:13-47
 activity#com.example.android.bluetoothlegatt.TempleDetails
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:63:9-66:46
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:74:9-78:47
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:65:13-66
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:76:13-66
 	android:theme
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:66:13-44
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:78:13-44
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:64:13-42
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:75:13-42
 activity#com.example.android.bluetoothlegatt.PlayerContainer
-ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:68:9-70:46
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:79:9-82:47
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:81:13-49
 	android:theme
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:70:13-44
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:82:13-44
 	android:name
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:69:13-44
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:80:13-44
+activity#com.example.android.bluetoothlegatt.Fragments.LanguageFragment
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:84:9-88:47
+	android:screenOrientation
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:86:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:87:13-54
+	android:theme
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:85:13-55
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:90:9-96:19
+REJECTED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:29:9-34:38
+	tools:node
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:92:13-33
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:91:13-70
+meta-data#longScanForcingEnabled
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:93:13-95:40
+	android:value
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:95:17-37
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:94:17-54
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:98:9-100:72
+	android:value
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:100:13-69
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:99:13-44
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:103:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml:103:22-64
 uses-sdk
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\ab9614ccf34b8d98dba9f04b52e35f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\ab9614ccf34b8d98dba9f04b52e35f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\dfcf6fee9349668ce42df4ca6f8f4159\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\dfcf6fee9349668ce42df4ca6f8f4159\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\32c8b8b22fcf9950760a0bbee70bf8fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\32c8b8b22fcf9950760a0bbee70bf8fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\c01db3e2da472126b3637617c1dc663d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\c01db3e2da472126b3637617c1dc663d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5e967c17892f84b42bf73f00c3fa760e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5e967c17892f84b42bf73f00c3fa760e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0565d8505fd19cd3c5f4a1043d58f42a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0565d8505fd19cd3c5f4a1043d58f42a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8d41ea8fcd290196e4c5d3ab3a38d029\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8d41ea8fcd290196e4c5d3ab3a38d029\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ee19ffb972943ab04a0117b270ad40de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ee19ffb972943ab04a0117b270ad40de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\3ecf1f03fb03173a4c98222d0470dbe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\3ecf1f03fb03173a4c98222d0470dbe3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\fadf8b1e98d1d416944dd38f74bf811c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\fadf8b1e98d1d416944dd38f74bf811c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\503afb30ec48b04fb4d89490e2fd5339\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\503afb30ec48b04fb4d89490e2fd5339\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6bbd21c6a4ec017b91e7a48558e15920\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\6bbd21c6a4ec017b91e7a48558e15920\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b65c9b70765335ef97d463dfe6055148\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b65c9b70765335ef97d463dfe6055148\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\64a6d18529bce57b91840a3717a1841c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\64a6d18529bce57b91840a3717a1841c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f4605d6a1596de6f0cf9c766beaf1513\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\f4605d6a1596de6f0cf9c766beaf1513\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\089eb0dc156d8ffeadaa1694f6f9dfb3\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\089eb0dc156d8ffeadaa1694f6f9dfb3\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\50f4d4e9ddb0dac135d60d0759c318a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\50f4d4e9ddb0dac135d60d0759c318a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d4a8da95a5f4628de0274723f9fd7929\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d4a8da95a5f4628de0274723f9fd7929\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9d43ad26d7e083bb16b40a5a3da7b412\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\9d43ad26d7e083bb16b40a5a3da7b412\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\dff11e9ec2311d4b1e0bfe19adbb5390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\dff11e9ec2311d4b1e0bfe19adbb5390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\15cc0b69631e2b347ebf9e005f7d70f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\15cc0b69631e2b347ebf9e005f7d70f8\AndroidManifest.xml:20:5-44
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\8bdea31ce0b98a454cb1a994db9de03d\AndroidManifest.xml:29:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:2.0.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-ndk-2.0.5.aar\8bdea31ce0b98a454cb1a994db9de03d\AndroidManifest.xml:29:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d5175495d6e380687fde83db4e1397ee\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d5175495d6e380687fde83db4e1397ee\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\0b32ad873847777a51c0ea371c1a1bce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\0b32ad873847777a51c0ea371c1a1bce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\80c05f121830cbe783f36c5aebd9629f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\80c05f121830cbe783f36c5aebd9629f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ce123c7f97bef078c08bfd54e4c7544e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\ce123c7f97bef078c08bfd54e4c7544e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1932b51a28408527d713428400a59fb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1932b51a28408527d713428400a59fb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\949c4765be9b90d566d9501baa30b808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\949c4765be9b90d566d9501baa30b808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\683ad453e5b78c8b7c95779bb2c6d410\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\683ad453e5b78c8b7c95779bb2c6d410\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7ba1c8a92a7e6f8689d99e81873e3597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7ba1c8a92a7e6f8689d99e81873e3597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\f7978f73004556ab1336b6716e5f8040\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\f7978f73004556ab1336b6716e5f8040\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a78b7e28263fe59dbbf40ac442b1ebc5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a78b7e28263fe59dbbf40ac442b1ebc5\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.5.aar\4df183d75ffdf9cc3c22b198860df779\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.4] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\answers-1.4.4.aar\45e8f0ed7134ce3620be0d3d37f0c68f\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\c4c7c471ccb53b18fbd04c64ed1afd07\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.5] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\fabric-1.4.5.aar\4c053d9c7fde9d24bed614853221cfb2\AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\afc3a2e39657920021c8ca1e84d6262d\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\afc3a2e39657920021c8ca1e84d6262d\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleApp\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ap250532\Documents\Projects\Personal\TempleAppEddyStone\android-BluetoothLeGatt-master\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:17:22-78
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:21:19-87
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:23:17-79
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:23:25-76
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:24:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:24:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:25:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:25:25-87
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:36:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:39:9-48:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:42:13-44:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.15.2] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\android-beacon-library-2.15.2.aar\c96ce8c84ea22653bb8572017c3591c0\AndroidManifest.xml:53:17-37
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.6] C:\Users\ap250532\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.6.aar\8a349576aa9bbe784c0a3563142debaf\AndroidManifest.xml:13:13-75

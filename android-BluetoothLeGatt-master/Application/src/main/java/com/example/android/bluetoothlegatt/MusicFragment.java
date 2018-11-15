@@ -85,28 +85,28 @@ public class MusicFragment extends Fragment {
     }
 
     public int getIntFileName(String name) {
-        int id = R.raw.god_audio;
-
-        switch (name) {
-            case "Achyutam":
-                id = R.raw.achyutam;
-                break;
-            case "Jamuna":
-                id = R.raw.jamuna;
-                break;
-            case "Kaanha":
-                id = R.raw.kaanha;
-                break;
-            case "Mahara":
-                id = R.raw.mahara;
-                break;
-            case "Nikunj":
-                id = R.raw.nikunj;
-                break;
-            default:
-
-                break;
-        }
+        int id = -1;//R.raw.god_audio;
+//
+//        switch (name) {
+//            case "Achyutam":
+//                id = R.raw.achyutam;
+//                break;
+//            case "Jamuna":
+//                id = R.raw.jamuna;
+//                break;
+//            case "Kaanha":
+//                id = R.raw.kaanha;
+//                break;
+//            case "Mahara":
+//                id = R.raw.mahara;
+//                break;
+//            case "Nikunj":
+//                id = R.raw.nikunj;
+//                break;
+//            default:
+//
+//                break;
+//        }
 
         return id;
     }

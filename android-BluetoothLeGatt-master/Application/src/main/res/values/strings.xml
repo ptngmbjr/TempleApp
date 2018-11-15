@@ -50,8 +50,11 @@
     </string-array>
 
     <string name="language_prompt">Select your language</string>
-
+    <string name="lang_search_hint">Type to search</string>
+    <string name="continue_btn">Continue</string>
     <string name="statuenumber">01\nTemple</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
